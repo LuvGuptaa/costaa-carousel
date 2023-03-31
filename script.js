@@ -123,56 +123,6 @@ function generateUniqueRandom(maxNr) {
     }
 }
 
-function hideLit(){
-    document.getElementById('4-5').style.opacity = 0;
-    document.getElementById('5-5').style.opacity = 0;
-    document.getElementById('5-4').style.opacity = 0;
-    document.getElementById('1-2').style.opacity = 0;
-    document.getElementById('1-4').style.opacity = 0;
-    document.getElementById('1-6').style.opacity = 0;
-    document.getElementById('1-8').style.opacity = 0;
-    document.getElementById('1-10').style.opacity = 0;
-    document.getElementById('3-5').style.opacity = 0;
-    document.getElementById('4-8').style.opacity = 0;
-    document.getElementById('4-11').style.opacity = 0;
-    document.getElementById('5-8').style.opacity = 0;
-    document.getElementById('5-10').style.opacity = 0;
-    document.getElementById('6-4').style.opacity = 0;
-    document.getElementById('6-8').style.opacity = 0;
-    document.getElementById('7-6').style.opacity = 0;
-
-
-    setTimeout(() => {
-        document.getElementById('4-6').style.opacity = 0;
-        document.getElementById('4-4').style.opacity = 0;
-        document.getElementById('1-3').style.opacity = 0;
-        document.getElementById('1-5').style.opacity = 0;
-        document.getElementById('1-7').style.opacity = 0;
-        document.getElementById('1-9').style.opacity = 0;
-        document.getElementById('4-9').style.opacity = 0;
-        document.getElementById('5-9').style.opacity = 0;
-        document.getElementById('6-11').style.opacity = 0;
-        document.getElementById('6-6').style.opacity = 0;
-
-    }, 500);
-
-    setTimeout(() => {
-        document.getElementById('3-4').style.opacity = 0;
-        document.getElementById('4-10').style.opacity = 0;
-        document.getElementById('5-7').style.opacity = 0;
-        document.getElementById('5-11').style.opacity = 0;
-        document.getElementById('6-10').style.opacity = 0;
-        document.getElementById('6-5').style.opacity = 0;
-
-    }, 800);
-
-    setTimeout(() => {
-        document.getElementById('6-9').style.opacity = 0;
-        document.getElementById('6-7').style.opacity = 0;
-        document.getElementById('7-4').style.opacity = 0;
-    }, 1000);
-}
-
 function stayLit() {
     document.getElementById('0-0').style.opacity = 1;
     document.getElementById('0-1').style.opacity = 1;
@@ -225,18 +175,35 @@ function lightUp(){
     }
         
     var timeoutValue = setTimeout(() => {
-        for (let k = 0; k < rows * columns * 6; k++) {
+        for (let k = 0; k < rows * columns * 7; k++) {
             hideTimeout[k] = setTimeout(() => {
                 var r = Math.floor(Math.random() * rows);
                 var c = Math.floor(Math.random() * columns);
                 var selectedHex = document.getElementById(r + "-" + c);
                 selectedHex.style.opacity = 0;
                 stayLit();
-                hideLit();
+                // hideLit();
             }, (k * showSpeed) / hideSpeed );
         }
     }, 2500);
-    
+    setTimeout(() => {
+        for (let r = 0; r < rows + 1; r++) {
+            for (let c = 0; c < columns; c++) {
+                var selectedHex = document.getElementById(r + "-" + c);
+                selectedHex.style.opacity = 1;
+                stayLit();
+            }
+        }
+    }, 2400);
+    setTimeout(() => {
+        for (let r = 0; r < rows + 1; r++) {
+            for (let c = 0; c < columns; c++) {
+                var selectedHex = document.getElementById(r + "-" + c);
+                selectedHex.style.opacity = 0;
+                stayLit();
+            }
+        }
+    }, 5000);
 
     
 }
