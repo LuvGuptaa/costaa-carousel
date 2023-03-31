@@ -298,7 +298,7 @@ data = [
     },
     {
       name: "Sahil Shah",
-      dept: "Department of Sponsorship",
+      dept: "Department of Sponsorship and Marketing",
       photo: "Assets/sahil.png",
       desc: "This man is going to enjoy the next minute because “All I want is a little attention” is his life's motto. Before we begin, everyone should note that Sahil is the worst thing that has happened to Sponz and sponz has recently been on probation. Sahil itna chindi hai ki wo sponz ke juniors ko sponsors lane par mango bite deta hai, aur wo bhi sirf ek. Sahil is so insecure about his height that he tried to get Complan as a sponsor but they still rejected him. He needs so much validation on a daily basis that he asked the UC “ki chaahe to Sponz ko probation pe daal do par mera tweet like kar do” He also asked 3 random girls if they would like to feed dogs with him, all of them rejected the offer. In one line, Sahil is a tharki unfunny Gujarati, who scratches his chest like a pervert whenever he gets to know about a new girl and hits on anything that is even close to a female. Presenting to you, the costaan of Sponz, SAHIL SHAH.",
 
