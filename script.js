@@ -251,6 +251,7 @@ const imageContainer = document.querySelector(".image");
 const image = document.querySelector(".image img");
 const nameCostaa = document.querySelector(".name h2");
 const nameContainer = document.querySelector(".name")
+const desc = document.querySelector(".desc")
 let currentData = 0; 
 
 data = [
@@ -258,47 +259,64 @@ data = [
       name: "Adarsh Bhardwaj",
       dept: "Department of Visual Media",
       photo: "Assets/adarsh.png",
+      desc: "Adarsh Bharadwaj is always found sleeping during the day, and daydreaming during the night.In his free time he fantasizes about impromptu trips, specially to Delhi. It wasn’t too late that he was found cold-mailing GB Road Institutions for 'research' and possible PS-2 opportunities. Speaking of emails, his makeup requests are quite often reciprocated with NC threats (p.s. It’s not a threat anymore). To call attention to his perverse inclinations, Adarsh’s motive while choosing his major (pharmacy) and his PORs (Meera Mess tech lead) was quite clear, picking up chics, and yet he failed miserably One such example is him simping over a senior for an entire semester (by the way his best friend ends up proposing to her). The weird part is, this wasn’t even the first time he was forced into submission by his best friend.  This was enough of a backstory to throw him into the loop of intoxication. The hindrance being his monthly allowance, Adarsh takes a proactive stance on cheap thrills, subsequently earning the title of “Thandai advocate”. In all fairness, Adarsh is one of the most approachable and heartfelt e-bois on campus so feel free to reach out to him for any help or guidance, cause he really needs some. P.s. pharma juniors, help him graduate, or else he’s gonna be here for a long, long time. Presenting the coord of dvm, aadarsh bahradwaj.",
     },
     {
       name: "Ishpreet Singh Sood",
-      dept: "Guest Lectures and Paper Presentations",
+      dept: "Department of Paper Evaluation and Presentation",
       photo: "Assets/ishpreet.png",
+      desc: "Bacchan in the sheets, costaan in the streets seems to be the life motto of paaji. Gaming ka isko itna shauk hai ki First year mein iska ice breaker hota tha valo khelega kya? Paaji ne valo se lekar fifa se lekar costaan elections tak, bohot try hard kiya lekin uske life mein ek hi constant tha, uska pep coord. This man is so creative that he was the graphic designer intern of the month at owled. His love for graphic designing knows no bounds as he joined multiple clubs for the role and got kicked out from all of them. Pep ka costaan bhi pata nahi kaise ban gaya. Maybe if he would have applied for the official graphic designer post, then uske co-ords uske saath shayad abhi bhi kaam karte. This man has taken his long legs fetish so seriously ki usne apne department ke ex costaan ko bhi nahi chhoda aur uski chaatne lag gaya.Being the masterchef of vyas, he once randomly said that we’ll cook chicken in the hostel QT, and the man actually did it. They say what happens in the family stays in the family, unfortunately in his case it didnt. Presenting to you the CoStAAN of Paaji Evaluation and Presentation, oh sorry, the costaan of paper evaluation and presentation, Ishpreet Singh Sood.",
+
     },
     {
       name: "Poorvansh Kavta",
-      dept: "Department of Publicity and Partnerships",
+      dept: "Department of Art, Design and Publicity",
       photo: "Assets/poorvansh.png",
+      desc: "Well, well, well, if it isn't Poorvansh - the 21-year-old uncle. Speaking of being outdated,he is studying civil engineering, which is about as relevant as a fax machine in 2023. But it's a good thing, because at least he will know how to bridge the age gap between him and his girlfriend. But hey, age is just a number, right? He's barely cleared his courses each semester, so he is practically in his first year . At least he has something in common with your girlfriend. Presenting the ADP Costaan, Poorvansh.     ",
+
     },
     {
       name: "Mayan Agrawal",
-      dept: "Department of Registrations and Correspondence",
+      dept: "Department of Publications and Correspondence",
       photo: "Assets/mayan.png",
+      desc: "Mayan says \“I feel I am the smartest costaan bits has ever seen\” yet the only work he has done the entire sem is “pachaas nahi chaar posters chahiye toh bolo”. He is the CoStAAN of Publications and Correspondence, but the only correspondence he does is with girls of other colleges yet they never come. Mayan jab paida hua tha tab uske muh se Pehle shabd mom ya dad nahi, Nagpur aur taadoba tha. Iski nagpur waali baate sunkar lagta hai deaf people are privileged. Mayan ki resort itni badi hai ki woh humare sab conversations mein aa jati hai. He is so desperate to look cool ki woh apne neck ke allergy ko hickey batate ghumta hai. This man is such a wannabe that he fakes hookups he did over the summer and when asked for proof says \"DM nahi hai kyunki Vanish mode mein baat ki thi\". Describing him in one line, pre-costaan Mayan ko ladkiya aise hi reject karti thi aur post-costaan Mayan ko ladkiyan blind date pe reject karti hai. From a national level rifle shooter to the CoStAAN of Publications and Correspondence, presenting to you Mayan Agrawal.",
+
     },
     {
       name: "Nishit Gupta",
       dept: "Department of Controls",
       photo: "Assets/nishit.png",
+      desc: "Coming from the small city of Kota, Nishit used to be as you would expect, a humble, well-educated, suicidal kid. Our “chanchal” boy, who could barely write, took a keen interest in writing “kavya” as he came to BITS. From trembling with the thought of holding hands with his first girlfriend to trembling the bed post just 3 months into his new relationship, he has come a long way. The news of getting into controls took control of him to an extent that he started ghosting his potential gf. Then he went on to propose her for marriage twice after the first rejection. The first time by giving her a balloon and the second time while he was wearing one. Taking a page out of game of thrones, Nishit is weirdly obsessed with chairs. Be it him right now, or at new years with his gf. Like a true costaan, this wannabe dom spent his days preparing for apogee and power tripping over his wingies. Having said all this, Nishit’s “mei hun na'' attitude has always helped not just his department but his friends too. This assures everyone that he is a reliable shoulder for support and an amazing peer to work with. Presenting to you the last brain cell of Controls, NISHIT GUPTA.",
+
     },
     {
       name: "Lalit Adithya",
       dept: "Department of Reception and Accomodation",
       photo: "Assets/lalit.png",
+      desc: "Lalit has always had his fair share of quirky habits. From betting 2,000 that he will never drink again to sticking his head straight into the bushes . From giving his best in an SI interview only to run to the PU Office to get rid of it a day later. Lalit has shown numerous times that none of his life decisions are firm, including his will to be a CoStAAn.  Despite his unpredictability, Lalit is surely a complete workaholic when it comes to RecNAcc work. It's ironic, however, for someone who handles accommodations, the number of times he's been locked out of his own room. First by his roommate and then by the supposed ghosts of Gandhi-137. But Lalit is beyond all this, continuing to sleep and hold meetings in the very same cordyceps-infested room.  Fest work may come and go, but his ultimate goal of graduating early remains constant, even if it means taking up a 30-credit Sem just because it fits in his calendar. Unfortunately for him, this always ends up with him standing in front of AUGSD office. Presenting to you the CoStAAn with the highest CG among them all, Lalit Adithya Prakash. ",
+
     },
     {
       name: "Sahil Shah",
-      dept: "Department of Sponsorship and Marketing",
+      dept: "Department of Sponsorship",
       photo: "Assets/sahil.png",
+      desc: "This man is going to enjoy the next minute because “All I want is a little attention” is his life's motto. Before we begin, everyone should note that Sahil is the worst thing that has happened to Sponz and sponz has recently been on probation. Sahil itna chindi hai ki wo sponz ke juniors ko sponsors lane par mango bite deta hai, aur wo bhi sirf ek. Sahil is so insecure about his height that he tried to get Complan as a sponsor but they still rejected him. He needs so much validation on a daily basis that he asked the UC “ki chaahe to Sponz ko probation pe daal do par mera tweet like kar do” He also asked 3 random girls if they would like to feed dogs with him, all of them rejected the offer. In one line, Sahil is a tharki unfunny Gujarati, who scratches his chest like a pervert whenever he gets to know about a new girl and hits on anything that is even close to a female. Presenting to you, the costaan of Sponz, SAHIL SHAH.",
+
     },
     {
       name: "Naman Jalan",
       dept: "General Secretary, Students' Union",
       photo: "Assets/naman.png",
+      desc: "Firstly this would be mostly in hindi bcoz english me kya haal hai iske woh toh oasis ke speech se yaad aa hi gaya hoga      We still think ki since naman jalan is from Asansol, ye sunke hi uska candidature cancel kardena chhiye but then realized that he had ‘high’ ambitions when we first met him. The best part of his journey is ki jalan itna stuff karta hai ki MAL ne hi ussey gen sec bana diya.  This gentleman and his companion wanted the system to be transparent, so they revealed how much of a share they take to get the work done. He is so hungry for respect ki he dated the first girl who called him jalan “ji”. His work ethic is directly proportional to the free nicotine he gets. Presenting to you, the general secretary of students union, Naman Jalan. ",
+
     },
   
     {
       name: "Ashirwad Karande",
       dept: "President, Students' Union",
       photo: "Assets/ashirwad.png",
+      desc: "Ashirwad Karande, is very famous for pulling out, DLE, from the charter, as that was his only achievement as SU prez. He is so open minded that he doesn't consider red hair as a red flag. Being extremely skinny didn't stop him from  fist fighting the only guy he thought he could beat up, only to be beat up by a 40 kg lanky boy. He was once seen getting his girl snuck and had to get her out within 2 and a half minuts. The irony is that this was the second time CRC caught him with a 2.5 cut. Alas he couldn't wriggle out of this one despite his skininess. Presenting the Costaan of Finance and the Students’ Union President - ASHIRWAD KARANDE.",
+
     },
   ];
 
@@ -312,6 +330,7 @@ function changeData() {
         photo.style.opacity = 0;
         nameContainer.style.opacity = 0;
         dept.style.opacity = 0;
+        desc.style.opacity= 0;
     }, 400);
     timeout2 = setTimeout(() => {
         updateValue();
@@ -320,6 +339,7 @@ function changeData() {
         photo.style.opacity = 1;
         nameContainer.style.opacity = 1;
         dept.style.opacity = 1;
+        desc.style.opacity=1;
     }, 800);
 }
 function updateValue() {
@@ -327,6 +347,7 @@ let d = data[currentData];
 nameCostaa.innerHTML = d.name;
 deptName.innerHTML = d.dept;
 image.src = d.photo;
+desc.innerHTML=d.desc
 }
 
 

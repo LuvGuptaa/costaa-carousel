@@ -30,7 +30,7 @@ body{
 }
 .dept{
     position: absolute;
-    top: 6vw;
+    top: 3vw;
     left: 10vw;
     z-index: 2;
     width: 100%;
@@ -46,8 +46,8 @@ body{
 }
 .photo{
     position: absolute; 
-    top: 16vw;
-    left: 21vw;
+    top: 10vw;
+    left: 8vw;
     height: 33vw;
     width: 26vw;
     transition: opacity 0.8s ease-in-out;
@@ -72,8 +72,8 @@ body{
 .name{
     position: absolute;
     display: flex;
-    top: 20vw;
-    left: 55vw;
+    top: 32vw;
+    left: 11vw;
     border-radius: 10px;
     height: 18vw;
     width: 25vw;
@@ -82,6 +82,13 @@ body{
     background: rgba(0, 0, 0, 0);
     transition: opacity 0.8s ease-in-out;
     z-index: 5;
+}
+.desc{
+    position: absolute;
+    top: 15vw;
+    left: 45vw;
+    width: 50vw;
+    font-size: 20px;
 }
 .name h2{
     text-align: center;
