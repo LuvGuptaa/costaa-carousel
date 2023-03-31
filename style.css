@@ -30,7 +30,7 @@ body{
 }
 .dept{
     position: absolute;
-    top: 4vw;
+    top: 6vw;
     left: 10vw;
     z-index: 2;
     width: 100%;
