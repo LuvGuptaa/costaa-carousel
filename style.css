@@ -85,9 +85,13 @@ body{
 }
 .desc{
     position: absolute;
-    top: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3vh;
     left: 45vw;
     width: 50vw;
+    height: 100vh;
     font-size: 20px;
 }
 .name h2{
